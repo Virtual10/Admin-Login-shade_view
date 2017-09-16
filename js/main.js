@@ -1,0 +1,24 @@
+$(document).ready(function(){
+	$('.header-right').slicknav();
+	$('#responsive-video').fitVids();
+	/*$('.owl-carousel').owlCarousel({
+    loop:true,
+	navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+	nav:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        598:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})*/
+});

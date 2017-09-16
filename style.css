@@ -1,0 +1,248 @@
+/* 
+
+   Read in the name of ALLAH 
+
+   =======================
+   Explore SuperStar World
+
+   Shihan Chowdhury
+   ======================= 
+   
+*/
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,canvas,iframe,img,svg,video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* =============
+   Custom Styles
+   ============= */
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.fix {
+	overflow:hidden;
+}
+.floatleft {
+	float:left;
+}
+.floatright {
+	float: right;
+}
+a, a:hover {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}   
+  
+
+  
+/*
+	-_-_-_-_-_-_-_-_-_-_
+	admin_login_page Start
+	-_-_-_-_-_-_-_-_-_-_
+*/
+/*
+#admin_login_page {
+	margin: 0;
+	padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    height: 100%;
+    margin: auto;
+    position: absolute;
+	background: url(img/login_image.png) no-repeat;
+	background-size: 100% 100%;
+}*/
+#admin_login_page {
+    background: url(img/login1.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-size: cover;	
+}
+#admin_login_page .login_div {
+    width: 400px;
+    height: 220px;
+    position: absolute;
+    margin: -100px 0 0 -200px;
+    top: 56%;
+    left: 50%;
+    padding: 10px;
+}
+#admin_login_page .login_div .login_tile {
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 12px;	
+}
+#admin_login_page .login_div form {
+    padding: 0px 25px;	
+}
+#admin_login_page .login_div form .form-group {}
+#admin_login_page .login_div form .form-control {
+    height: 36px;
+    font-size: 16px;
+	background: transparent;
+	color: #fff;
+	border: none;
+}
+#admin_login_page .login_div button {
+    border: 1px solid #ddd !important;
+    width: 70%;
+    margin: 0 auto;
+	-webkit-transition: width 2s, height 2s, -webkit-transform 2s;	
+	transition: width 2s, height 2s, transform 2s;	
+}
+#admin_login_page .login_div button:hover {
+	border-right: none !important;
+	border-left: none !important;
+	border-radius: 0 !important;
+	-webkit-transform: rotate(360deg);	
+	transform: rotate(360deg);
+}
+/* admin_login_page End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+    display: none !important;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+.invisible {
+    visibility: hidden;
+}
+.clearfix:before,.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.clearfix:after {
+    clear: both;
+}
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important;
+		box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    a[href^="#"]:after,a[href^="javascript:"]:after {
+        content: "";
+    }
+    pre,blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    thead {
+        display: table-header-group;
+    }
+    tr,img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100% !important;
+    }
+    p,h2,h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,h3 {
+        page-break-after: avoid;
+    }
+}
